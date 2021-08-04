@@ -31,13 +31,11 @@ class _SplashPageState extends ModularState<SplashPage, SplashController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          ElevatedButton(
-            onPressed: () => Modular.to.navigate("/login"),
-            child: Text("Login"),
-          ),
-        ],
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () => Modular.to.navigate("/login"),
+          child: Text("Login"),
+        ),
       ),
     );
   }

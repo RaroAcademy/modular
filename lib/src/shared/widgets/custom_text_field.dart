@@ -29,7 +29,7 @@ class CustomTextField extends StatelessWidget {
   final String? helperText;
   final bool obscureText;
   final ValueChanged<String>? onChanged;
-  final String Function(String?)? validator;
+  final String? Function(String?)? validator;
   final List<TextInputFormatter>? inputFormatters;
   final TextEditingController? controller;
   final Widget? icon;
