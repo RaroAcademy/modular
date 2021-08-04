@@ -1,1 +1,3 @@
-class LoginRepository {}
+class LoginRepository {
+  LoginRepository();
+}

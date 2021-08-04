@@ -12,7 +12,7 @@ class LoginModule extends Module {
   @override
   List<Bind<Object>> get binds => [
         Bind.singleton((i) => LoginRepository()),
-        Bind.lazySingleton(
+        Bind.factory(
             (i) => CreateAccountController(repository: i<LoginRepository>())),
         Bind.lazySingleton((i) =>
             RecoveryPasswordController(repository: i<LoginRepository>())),
