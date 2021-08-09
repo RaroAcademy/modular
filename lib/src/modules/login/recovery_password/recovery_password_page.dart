@@ -17,7 +17,7 @@ class _RecoveryPasswordPageState
       body: Column(
         children: [
           ElevatedButton(
-            onPressed: () => Modular.to.pop(),
+            onPressed: () => Modular.to.navigate("/login"),
             child: Text("Cadastrar"),
           ),
         ],

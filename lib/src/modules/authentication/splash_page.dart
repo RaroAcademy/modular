@@ -33,7 +33,7 @@ class _SplashPageState extends ModularState<SplashPage, SplashController> {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
-          onPressed: () => Modular.to.navigate("/login"),
+          onPressed: () => Modular.to.navigate("/home"),
           child: Text("Login"),
         ),
       ),
